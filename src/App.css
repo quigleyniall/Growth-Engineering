@@ -64,3 +64,35 @@
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 900px){
+  .youtube-image {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px){
+  .youtube-player {
+    width: 100%;
+    padding: 0;
+  }
+  .youtube-list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .youtube-image {
+    width: 100%;
+  }
+  .youtube-links {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .youtube-title {
+    margin-top: 10px;
+  }
+  .youtube-list {
+    border: none;
+    padding: 0;
+  }
+}

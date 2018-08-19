@@ -26,11 +26,15 @@ class App extends Component {
 }
 
   onChangeVideo = (event) => {
+    window.scrollTo(0, 0)
+    //  Retrieve name of video clicked
     const title = event.currentTarget.name
     let {youtube} = this.state
+    //  Filter all results with name of clicked video
     let filtered = youtube.filter((video) => {
       return video.snippet.title == title
     })
+    // update title, desc and video
   this.setState({
     videoId: filtered[0].contentDetails.videoId,
     desc: filtered[0].snippet.description,
