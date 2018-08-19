@@ -77,6 +77,8 @@
   }
   .youtube-list {
     width: 100%;
+    border: none;
+    padding: 0;
   }
 }
 
@@ -90,9 +92,5 @@
   }
   .youtube-title {
     margin-top: 10px;
-  }
-  .youtube-list {
-    border: none;
-    padding: 0;
   }
 }
